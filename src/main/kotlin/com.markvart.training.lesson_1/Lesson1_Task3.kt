@@ -1,16 +1,16 @@
 package com.markvart.training.lesson_1
 
 fun main() {
-    val year = 1961
-    var hour = 9
-    var minute = 7
+    val year = "1961"
+    var hour = "09"
+    var minute = "07"
 
-    println(String.format("Год полета - %d", year))
-    println(String.format("Взлет - %02d:%02d", hour, minute))
+    println(String.format("Год полета - %s", year))
+    println(String.format("Взлет - %s:%s", hour, minute))
 
-    hour = 10
-    minute = 55
+    hour = "10"
+    minute = "55"
 
-    println(String.format("Посадка - %02d:%02d", hour, minute))
+    println(String.format("Посадка - %s:%s", hour, minute))
 
 }
